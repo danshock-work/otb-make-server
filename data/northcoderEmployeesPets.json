@@ -1,0 +1,134 @@
+{
+  "people": [
+    {
+      "pets": [
+        {
+          "name": "Opal",
+          "kind": "cat",
+          "alive": true
+        },
+        {
+          "name": "Jeffry",
+          "kind": "cat",
+          "alive": false
+        }
+      ],
+      "username": "popcorn"
+    },
+    {
+      "pets": [
+        {
+          "name": "Elgar",
+          "kind": "pidgeon",
+          "alive": true
+        },
+        {
+          "name": "Rodrigo",
+          "kind": "alpaca",
+          "alive": true
+        }
+      ],
+      "username": "dedekind561"
+    },
+    {
+      "pets": [
+        {
+          "name": "Barney",
+          "kind": "dog",
+          "alive": true
+        },
+        {
+          "name": "Shania",
+          "kind": "rock",
+          "alive": false
+        }
+      ],
+      "username": "tomosim"
+    },
+    {
+      "pets": [
+        {
+          "name": "Holly",
+          "kind": "hamster",
+          "alive": false
+        },
+        {
+          "name": "James Pond",
+          "kind": "goldfish",
+          "alive": false
+        }
+      ],
+      "username": "MissMallion"
+    },
+    {
+      "pets": [
+        {
+          "name": "Shnitzel",
+          "kind": "cat",
+          "alive": true
+        }
+      ],
+      "username": "anatdean"
+    },
+    {
+      "pets": [
+        {
+          "name": "Dave",
+          "kind": "cat",
+          "alive": false
+        },
+        {
+          "name": "Pinchy",
+          "kind": "lobster",
+          "alive": false
+        }
+      ],
+      "username": "rogersop"
+    },
+    {
+      "pets": [
+        {
+          "name": "Felix",
+          "kind": "cat",
+          "alive": true
+        }
+      ],
+      "username": "P-Copley"
+    },
+    {
+      "pets": [
+        {
+          "name": "Henna",
+          "kind": "cat",
+          "alive": false
+        }
+      ],
+      "username": "RuthYMNg"
+    },
+    {
+      "pets": [
+        {
+          "name": "Otis",
+          "kind": "dog",
+          "alive": false
+        },
+        {
+          "name": "Branston",
+          "kind": "dog",
+          "alive": true
+        }
+      ],
+      "username": "icellusedkars"
+    },
+    {
+      "pets": [
+        {
+          "name": "Karl",
+          "kind": "llama",
+          "alive": true
+        }
+      ],
+      "username": "ziziou91"
+    }
+  ]
+}
