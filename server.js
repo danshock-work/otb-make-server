@@ -1,5 +1,6 @@
 const http = require("http");
 const { readFile } = require("fs").promises;
+const resolveEndpoint = require("./controllers/endpointController");
 
 function handleServer(apiHandler) {
   const server = http.createServer(function(request, response) {
@@ -18,17 +19,4 @@ function handleServer(apiHandler) {
   });
 }
 
-handleServer(function(path, request, response) {
-  response.writeHead(200, { "Content-type": "application/json" });
-
-  if (path === "/northcoders") {
-    readFile("./data/northcoderEmployees.json", "utf8").then(
-      employeeListJSON => {
-        response.write(employeeListJSON);
-        response.end();
-      }
-    );
-  } else {
-    response.end(`${path} <--- current path.`);
-  }
-});
+handleServer(resolveEndpoint);
